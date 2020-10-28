@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { NodeEditor } from "flume";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <div style={{width: 800, height: 600}}>
+      <NodeEditor />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
